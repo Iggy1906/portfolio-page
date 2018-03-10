@@ -1,0 +1,166 @@
+/*media query*/
+
+@media (max-width: 12450px) {
+  body { background: black; }
+}
+
+/*Navbar*/
+
+
+#nbar {
+  width: 100%;
+  height: 50px;
+  background: #830404;
+   margin: 0px;
+  clear: both;
+  z-index: 2;
+  border-bottom-width: 5px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  position: fixed;
+  top: 0px;
+  padding: 10px;
+}
+
+#navbar ul{
+  list-style: none;
+  display: inline-block;
+   float: right;
+  
+}
+
+#navbar ul li{
+   float: left;
+  margin-right: 40px;
+  color: white;
+}
+
+#navbar ul li :hover {
+   text-decoration: none;
+  color: grey;
+}
+
+ 
+ #navbar ul li a {
+  color: white; 
+}
+
+
+/*body*/
+
+#background {
+  background-image: url("https://s19.postimg.org/40wi0e0z7/fuji_x100s_camera-wallpaper-1366x768.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; 
+  min-height: 100vh; 
+}
+/*divs*/
+
+
+
+#overlay {
+  height: 100%;
+ background-color: rgba(0, 0, 0, 0.7);
+  margin: 0px 0px 0px 0px;
+  min-height: 100vh; 
+}
+
+/*welcome section*/
+
+#welcome-section {
+  text-align: center; 
+  color: white;
+  min-height: 100vh
+}
+
+
+/*projects section*/
+
+ h1 {
+  padding-top: 150px; 
+}
+
+#projects {
+  text-align: center; 
+  color: white; 
+}
+
+.container {
+  margin-top: 100px; 
+  margin-bottom: 100px; 
+}
+
+.project-tile{
+  width:250px ;
+  height: 180px;
+  border: red solid 2px; 
+  
+}
+
+
+
+img { 
+/*   z-index: 2;
+  forground-color: rgba(0,0,0,0.5); */
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+/*    backface-visibility: hidden;  */
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.col-sm-3:hover .image {
+  opacity: .3;
+}
+
+.col-sm-3:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  padding: 16px 32px;
+}
+
+#profile-link  {
+text-decoration: none;   
+  color: white; 
+}
+
+
+#profile-link:hover {
+  color: grey;
+}
+
+/*contact section*/
+
+#contact {
+  background-color: #830404; 
+  height:40px; 
+  width: 100%; 
+  margin-top: 50px;
+  border-top: solid black; 
+  text-align: center; 
+ 
+}
+
+#contact-name {
+  color: white; 
+}
+
